@@ -6,6 +6,12 @@ import { AppComponent } from './app.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { NosotrosComponent } from './nosotros/nosotros.component';
+import { ClientesComponent } from './clientes/clientes.component';
+import { TestimoniosComponent } from './testimonios/testimonios.component';
+import { ServiciosComponent } from './servicios/servicios.component';
+import { CapacitacionComponent } from './capacitacion/capacitacion.component';
+import { GaleriaComponent } from './galeria/galeria.component';
+import { InicioComponent } from './inicio/inicio.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +19,12 @@ import { NosotrosComponent } from './nosotros/nosotros.component';
     FooterComponent,
     HeaderComponent,
     NosotrosComponent,
+    ClientesComponent,
+    TestimoniosComponent,
+    ServiciosComponent,
+    CapacitacionComponent,
+    GaleriaComponent,
+    InicioComponent,
   ],
   imports: [
     BrowserModule,
