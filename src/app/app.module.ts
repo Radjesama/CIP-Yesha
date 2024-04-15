@@ -12,6 +12,7 @@ import { ServiciosComponent } from './servicios/servicios.component';
 import { CapacitacionComponent } from './capacitacion/capacitacion.component';
 import { GaleriaComponent } from './galeria/galeria.component';
 import { InicioComponent } from './inicio/inicio.component';
+import { ServicioPruebaComponent } from './servicio-prueba/servicio-prueba.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { InicioComponent } from './inicio/inicio.component';
     CapacitacionComponent,
     GaleriaComponent,
     InicioComponent,
+    ServicioPruebaComponent,
   ],
   imports: [
     BrowserModule,
@@ -35,4 +37,5 @@ import { InicioComponent } from './inicio/inicio.component';
   ],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { 
+}

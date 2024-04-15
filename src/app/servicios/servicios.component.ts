@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-servicios',
@@ -6,5 +7,11 @@ import { Component } from '@angular/core';
   styleUrl: './servicios.component.css'
 })
 export class ServiciosComponent {
+  
+  constructor(private router:Router){}
+
+  onClick(){
+    this.router.navigateByUrl('/servicio-prueba');
+  }
 
 }
